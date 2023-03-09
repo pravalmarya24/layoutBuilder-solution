@@ -12,4 +12,6 @@ body {
 }
 
 /* Write your CSS here */
-
+.display {
+  display: none;
+}

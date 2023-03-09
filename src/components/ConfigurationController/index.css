@@ -1,1 +1,32 @@
 /* Write your CSS here */
+.configuration-bg-container {
+  background-color: #475569;
+  background-size: cover;
+  height: 30vh;
+}
+
+.unordered-list {
+  list-style-type: none;
+  padding-left: 80px;
+  padding-top: 5px;
+}
+
+.layout-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.checkbox-size {
+  height: 13px;
+  width: 13px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 8px;
+}

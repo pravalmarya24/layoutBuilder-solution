@@ -1,1 +1,15 @@
 /* Write your CSS here */
+.header-bg-container {
+  width: 870px;
+  margin-top: 0;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #e2e8f0;
+}
+
+.header-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  color: #64748b;
+}
