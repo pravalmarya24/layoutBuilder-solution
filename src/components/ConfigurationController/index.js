@@ -6,6 +6,9 @@ const ConfigurationController = () => (
   <ConfigurationContext.Consumer>
     {value => {
       const {
+        showContent,
+        showLeftNavbar,
+        showRightNavbar,
         onToggleShowContent,
         onToggleShowLeftNavbar,
         onToggleShowRightNavbar,
@@ -25,6 +28,7 @@ const ConfigurationController = () => (
                 id="contentId"
                 className="checkbox-size"
                 onClick={onShowContent}
+                checked={showContent}
               />
               <label className="label" htmlFor="contentId">
                 Content
@@ -36,6 +40,7 @@ const ConfigurationController = () => (
                 id="leftNavbarId"
                 className="checkbox-size"
                 onClick={onShowLeftNavbar}
+                checked={showLeftNavbar}
               />
               <label className="label" htmlFor="leftNavbarId">
                 Left Navbar
@@ -47,6 +52,7 @@ const ConfigurationController = () => (
                 id="rightNavbarId"
                 className="checkbox-size"
                 onClick={onShowRightNavbar}
+                checked={showRightNavbar}
               />
               <label className="label" htmlFor="rightNavbarId">
                 Right Navbar
